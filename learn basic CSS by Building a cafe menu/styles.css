@@ -2,7 +2,17 @@ h1, h2, p {
     text-align: center;
 }
 
-/*step18*/
+/*step18 : the color makes hard to read
 body {
     background-color: brown;
+  }*/
+
+  /*step19*/
+  body {
+    background-color: burlywood;
   }
+  /*step21*/
+  #menu {
+    width:300px;
+  }
+
