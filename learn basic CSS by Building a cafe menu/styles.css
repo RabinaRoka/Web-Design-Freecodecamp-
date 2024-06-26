@@ -42,3 +42,14 @@ body {
   body {
     background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   }
+
+  /* Step 33 */
+.flavor {
+    text-align:left;
+  }
+
+ /* Step 35 */
+  .price {
+    text-align: right;
+  }
+  
