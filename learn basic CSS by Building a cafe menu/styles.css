@@ -8,11 +8,25 @@ body {
   }*/
 
   /*step19*/
-  body {
+  /* body {
     background-color: burlywood;
-  }
-  /*step21*/
+  } */
+  /*step21
   #menu {
     width:300px;
+    background-color: burlywood;
+  }*/
+  /*step23*/
+  /* #menu {
+    width:80%;
+    background-color: burlywood;
+  }
+
+  step24 */
+  #menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left:auto;
+    margin-right:auto;
   }
 
