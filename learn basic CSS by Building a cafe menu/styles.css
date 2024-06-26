@@ -22,11 +22,19 @@ body {
     background-color: burlywood;
   }
 
-  step24 */
-  #menu {
+  step24 :#for id
+   #menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left:auto;
+    margin-right:auto;
+  } */
+
+
+  /*step27*/
+  .menu {
     width: 80%;
     background-color: burlywood;
     margin-left:auto;
     margin-right:auto;
   }
-
