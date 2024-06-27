@@ -161,3 +161,14 @@ h2 {
   font-size: 30px;
   
 }
+
+/* step 67 */
+hr{
+  height:3px;
+}
+
+/* step 68 */
+hr {
+  height: 3px;
+  background-color:brown;
+}
