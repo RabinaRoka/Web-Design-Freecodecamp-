@@ -149,3 +149,15 @@ h1, h2 {
 .established {
   font-style:italic;
 }
+
+
+/* step 62 */
+h1 {
+  font-size: 40px;
+
+}
+
+h2 {
+  font-size: 30px;
+  
+}
