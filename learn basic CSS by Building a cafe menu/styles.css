@@ -201,3 +201,18 @@ step 75  */
 .bottom-line{
   margin-top:25px;
 }
+
+/* FOOTER */
+footer{
+  font-size:14px;
+
+}
+
+a{
+  color:black;
+}
+
+/* You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; } */
+a:visited{
+  color:grey;
+}
