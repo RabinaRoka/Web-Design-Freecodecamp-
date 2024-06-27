@@ -216,3 +216,38 @@ a{
 a:visited{
   color:grey;
 }
+
+a:hover{
+  color:brown;
+}
+
+/* step 83 */
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom:15px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+/* step 89 */
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
