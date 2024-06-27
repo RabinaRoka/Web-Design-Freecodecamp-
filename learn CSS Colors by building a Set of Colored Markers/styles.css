@@ -1,0 +1,13 @@
+
+/* step 8 */
+h1{
+    text-align:center;
+  }
+
+/* step11 and 12*/
+.marker {
+    background-color: red;
+    height:25px;
+    width:200px;
+    margin:auto;
+  }
