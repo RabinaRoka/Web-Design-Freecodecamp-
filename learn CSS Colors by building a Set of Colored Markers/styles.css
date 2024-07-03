@@ -228,7 +228,10 @@ Step 61*/
 }
 
 
+/* step 71, 72,73 */
 .sleeve{
   width:110px;
   height:25px;
+  background-color:rgb(255,255,255,0.5);
+  opacity:0.5;
 }
