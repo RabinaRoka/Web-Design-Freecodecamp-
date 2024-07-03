@@ -176,3 +176,44 @@ STEP 56
   background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
 } 
 
+
+/* step 60 
+
+.green {
+  background: #007F00;
+}
+
+Step 61*/
+.green {
+  background:linear-gradient(180deg, #55680D);
+}
+
+/* Step 62 */
+.green {
+  background: linear-gradient(180deg, #55680D, #71F53E);
+}
+
+/* Step63 */
+.green {
+  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+}
+
+/* step 64 */
+.red {
+  background: linear-gradient(180deg, rgb(122, 74, 14) , rgb(245, 62, 113) , rgb(162, 27, 27));
+}
+
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+}
+
+
+/* step 65 */
+.green {
+  background: linear-gradient( #55680D, #71F53E, #116C31);
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%));
+}
