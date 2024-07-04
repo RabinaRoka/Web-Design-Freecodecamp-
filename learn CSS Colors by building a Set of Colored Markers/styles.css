@@ -307,3 +307,45 @@ Update the values for the box-shadow property, and set offsetX to -5px, and offs
   background: linear-gradient(#55680D, #71F53E, #116C31);
   box-shadow: 5px 5px 5px green;
 }
+
+/* But what if you wanted to expand the shadow out further? You can do that with the optional spreadRadius value:
+
+Example Code
+box-shadow: offsetX offsetY blurRadius spreadRadius color; */
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow:0px 0px 0px 5px blue;
+}
+
+
+/* Step 90
+Now that you're familiar with the box-shadow property you can finalize the shadows, starting with the one for the red marker. */
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0px 0px 20px 0px red;
+}
+
+
+/* Step 91
+Next, update the color value of the red marker's box-shadow property. */
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgb(83 , 14, 14,0.8);
+}
+
+
+/* Step 92
+The shadows for your green and blue markers will have the same position, blur, and spread. The only difference will be the colors.
+
+In the .green and .blue CSS rules, update the values for the box-shadow properties so offsetX is 0,offsetY is 0, blurRadius is 20px, and spreadRadius is 0. Leave the colors as green and blue for now. */
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow:0 0 20px 0 green;
+}
+
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 blue;
+}
