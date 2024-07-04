@@ -282,3 +282,28 @@ Step 61*/
   background-color: rgba(255, 255, 255, 0.5);
   border-left: 10px double rgba(0,0,0,0.75);
 }
+/* Here's how the offsetX and offsetY values work:
+
+both offsetX and offsetY accept number values in px and other CSS units
+a positive offsetX value moves the shadow right and a negative value moves it left
+a positive offsetY value moves the shadow down and a negative value moves it up
+if you want a value of zero (0) for any or both offsetX and offsetY, you don't need to add a unit. Every browser understands that zero means no change. */
+
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 5px 5px red;
+}
+
+
+/* But what if you wanted to position your shadow on the opposite side? You can do that by using negative values for offsetX and offsetY.
+
+Update the values for the box-shadow property, and set offsetX to -5px, and offsetY to -5px. */
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: -5px -5px red;
+}
+
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 5px 5px 5px green;
+}
