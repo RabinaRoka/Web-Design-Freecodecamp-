@@ -21,9 +21,21 @@ body {
   }
 
 
+  /* center the form */
   form{
     margin:0 auto;
     max-width:500px;
     min-width:300px;
     width:60vw;
   }
+
+/* removing border */
+  fieldset{
+    padding:2rem 0 2rem 0;
+    border:0;
+    border-bottom:3px solid #3b3b4f;
+  }
+
+  fieldset:last-of-type {
+    border-bottom:none;
+   }
