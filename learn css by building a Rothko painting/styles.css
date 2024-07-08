@@ -2,6 +2,24 @@
     width:500px;
     height:600px;
     background-color:#4d0f00;
+    /* for top space instead of padding */
+    overflow:hidden;  
+  }
+
+  .frame{
+    border: 50px solid black;
+    width:500px;
+    padding:50px;
+    margin:20px auto;
+     /*This will move the frame down 20 pixels and horizontally center it on the page. */
+    
+
+  }
 
 
+  .one{
+    width:425;
+    height:150px;
+    background-color:#efb762;
+    margin:20px auto;
   }
