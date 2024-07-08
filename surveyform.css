@@ -1,0 +1,48 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family:inter;
+    font-size:16px;
+    background-image:url('https://media.istockphoto.com/id/1298136769/video/social-media-speech-bubbles-4k-looped-background-footage.jpg?s=640x640&k=20&c=Moe-fPEN_e2eL6fSmA1Sln52tzBGs6xwTXiTxYXcTHQ=');
+    background-size: cover;
+      background-position: center;
+  
+  }
+  
+  form{
+     background-color:rgb(0, 85, 170);
+    position:center;
+    color:white;
+  }
+  
+  
+    label{
+      display:block;
+      margin:0.5rem 0;
+    }
+  
+    input{
+      padding:0.3em 0.5em 0em 0.5em;
+    }
+  
+  
+      h1,p {
+      margin:1em auto;
+      text-align:center;
+    }
+  
+  
+    /* center the form */
+    form{
+      margin:0 auto;
+      max-width:500px;
+      min-width:300px;
+      width:60vw;
+    }
+  
+    legend{
+      font-size:20px;
+      font-style:bold;
+    }

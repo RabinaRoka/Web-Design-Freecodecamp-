@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="surveyform.css" />
+</head>
+<body>
+  <h1 id="title"> Survey form </h1>
+  <p id="description"> Please take a few minutes to serve you better in future.</p>
+<form action="" id="survey-form">
+      <fieldset>
+        <legend>Your Details</legend>
+        <label id="name-label"> Name:<input id="name" name="username" type="text" required placeholder="enter your name here.."></label>
+         <label id="email-label"> Email:<input id="email" name="username" type="email" required placeholder="enter your email here.."></label>
+         <label id="number-label">Number:<input id="number" name="phonenumber" type="number" min="10" max="99" required placeholder="enter your number here.."></label>
+        </fieldset>
+        <fieldset>
+          <legend>How would you rate the loading speed of the website?</legend>
+          <label for="dropdown"> the website?
+            <select id="dropdown">
+               <option value=""> (Select one)
+                </option>
+              <option value="1"> Very fast
+                </option>
+                <option value="2"> fast
+                </option>
+                <option value="3"> Average
+                </option>
+                <option value="4"> Slow
+                </option>
+                <option value="5"> Very Slow
+                </option>
+            </select>
+          </label>
+          </fieldset>
+          
+          <fieldset>  <legend>How easy is it to navigate through the website?</legend> 
+            <label for="easy"><input value="1" id="easy" type="radio" checked name="navigate" >Easy</label>
+            <label for="neutral"><input id="neutral" value="2"type="radio" name="navigate">Neutral</label>
+            <label for="diffi"><input id="diffi" value="3" type="radio" name="navigate">Difficult</label>
+            </fieldset>
+
+            <fieldset>
+
+<fieldset>
+    Which features do you find most useful on the website? (Check all that apply)
+
+    <label for="search"><input name="features" id="search" type="checkbox" value="1">Search Functionality</label>
+    <label for="Info"><input name="features" id="Info" type="checkbox" value="2">Contact Information</label>
+    <label for="blog"><input name="features" id="blog" type="checkbox" value="3">Blog</label>
+    <label for="Image"><input name="features" id="Image" type="checkbox" value="4">Contact Multimedia (Images/Videos)</label>
+</fieldset>
+
+
+            <fieldset>
+             <label> What improvements would you suggest for the website?<textarea></textarea><label>
+              </fieldset>
+        
+      <input type="submit" id="submit" value="Submit" />
+      </form>
+</body>
+</html>
