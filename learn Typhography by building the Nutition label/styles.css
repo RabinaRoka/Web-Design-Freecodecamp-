@@ -39,3 +39,18 @@
   .bold{
     font-weight:800;
   }
+
+
+  header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
+  }
+
+  .large{
+    height:10px;
+  }
+  
+  .large, .medium {
+    background-color:black;
+  }
