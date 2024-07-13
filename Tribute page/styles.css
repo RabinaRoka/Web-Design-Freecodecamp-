@@ -1,0 +1,17 @@
+
+body{
+    font-family:inter,sans-serif;
+}
+
+#image{
+        border: 2px solid gray; /* Sets a red border with a width of 2px */
+    border-radius: 5px;    /* Sets a border-radius of 5px (adjust as needed) */
+max-width:100%;
+height:auto;
+display:block;
+
+}
+
+
+
+
