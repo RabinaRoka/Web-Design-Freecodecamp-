@@ -1,17 +1,97 @@
-
+/* 
 body{
     font-family:inter,sans-serif;
 }
 
 #image{
-        border: 2px solid gray; /* Sets a red border with a width of 2px */
-    border-radius: 5px;    /* Sets a border-radius of 5px (adjust as needed) */
-max-width:100%;
-height:auto;
-display:block;
+    border: 2px solid gray; 
+    border-radius: 5px;    
+    max-width:100%;
+    height:auto;
+    display:block;
 
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray; 
+    border-radius: 5px;  
+    width: 500px;
+}
+
+#content {
+    text-align: center;
+} */
+
+/* Ensure the body and main elements take up the full viewport height and center the content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: to add a background color */
+}
+
+main {
+    /* text-align: center; */
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff; /* Optional: to add a background color to the main content */
+    box-shadow: 0 0 10px rgba(207, 204, 204, 0.1); /* Optional: to add a shadow effect */
+    border-radius: 1px; /* Optional: to round the corners */
+}
+
+#img-div {
+    margin: 20px 0;
+    /* border: 2px solid red; Example border */
+    border-radius: 5px; /* Example border radius */
+    overflow: hidden; /* Ensures the border radius is applied to the image */
+}
+
+#image {
+    border: 2px solid rgb(238, 237, 237); 
+    border-radius: 15px;    
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+#tribute-info {
+    text-align: left;
+    margin: 20px 0;
+}
 
 
+#img-caption {
+    margin-top: 200px;
+    margin-left: 55px;
+}
+
+.link {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#tribute-link {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #0000EE; /* Default link color */
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+figure{
+    display: flex;
+}
+
+#img-caption{
+    text-align: center;
+    
+}
 
