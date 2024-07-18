@@ -23,6 +23,7 @@ html{
     height:180px;
     padding-left:2px;
     padding:90px 20px 0 20px;
+    overflow:hidden; /*for responsive */
   }
 
 
@@ -60,4 +61,31 @@ html{
       padding:2rem;
   
     }
+
+    #piano{
+        width:358px;
+      }
+
+      .keys {
+        width: 318px;
+      }
+
+      .logo{
+        width:150px;
+      }
+}
+
+
+
+@media (max-width: 1199px) and (min-width: 769px) {
+
+    #piano{
+      width:675px;
+    }
+    
+    .keys{
+      width:633px;
+    }
+    }
+
     
