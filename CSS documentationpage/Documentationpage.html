@@ -1,0 +1,165 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation of CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<nav id="navbar">
+  <header>CSS Documentation </header>
+  <a href="about-css" class="nav-link">About CSS</a>
+  <a href="#basics" class="nav-link">CSS Basics</a>
+  <a href="#box-model" class="nav-link">Box Model</a>
+  <a href="#position" class="nav-link">Positioning</a>
+  <a href="#selector" class="nav-link">Element Selector</a>
+  <a href="#conc" class="nav-link">Conclusion</a>
+  </nav>
+<body>
+  <main id="main-doc">
+    <section class="main-section" id="About_CSS"> 
+      <header> About CSS </header>
+      <p>Cascading Style Sheets (CSS) is a cornerstone technology used for web development to control the presentation of HTML documents.
+        <article> By separating content from design, CSS allows developers to apply styles such as layout, colors, fonts, and spacing to various HTML elements. This enables the creation of visually appealing and responsive web pages. CSS follows a rule-based syntax where selectors are used to target HTML elements, and declarations define how those elements should be styled. Through advanced features like Flexbox and Grid, CSS offers robust solutions for complex layouts.
+          </article>
+        </p>
+      </section>
+    <section class="main-section" id="CSS_Basics">
+      <headeR>CSS Basics</header>
+<p>Syntax: CSS rules are made up of selectors and declaration blocks.</p>
+
+<div class="example">
+  <pre>
+<p>selector {
+  property: value;
+}
+Example:
+
+css
+Copy code
+p {
+  color: blue;
+  font-size: 14px;
+}</P>
+</pre>
+</div>
+      </section>
+    <section class="main-section" id="Box_Model">
+    <header id="box_model">Box Model</header>
+    <p>Every element in CSS is a rectangular box.
+
+<li>Content: The actual content of the box.</li>
+<li>Padding: Clears an area around the content.</li>
+<li>Border: A border surrounding the padding (if any) and content.</li>
+</p>
+
+      </section>
+
+<section class="main-section" id="Positioning">
+    <header>Positioning</header>
+    <p>
+        <li>Static: The default positioning for HTML elements.</li>
+        <li>Relative: Positioned relative to its normal position.</li>
+        <li>Absolute: Positioned relative to the nearest positioned ancestor.</li>
+        <li>Fixed: Positioned relative to the viewport.</li>
+    </p>
+</section>
+
+    <section class="main-section" id="Element_Selector">
+      <header>Element Selector</header>
+      <p>Element selectors are exactly the type of selector we looked at in that last example: Select the element’s HTML tag and start styling!</p>
+
+<p>That’s great and all, but consider this: Do you actually want to select all of the article elements on the page? </p>That’s what we’re doing when we select an element by its tag — any and all HTML elements matching that tag get the styles. <p>The following demo selects all article elements on the page, then applies a white (#fff) background to them.</P><p> Notice how all three articles get the white background even though we only wrote one selector.</p>
+      </section>
+    <section class="main-section" id="Conclucion">
+      <header>Conclusion</header>
+      <p>Additionally, CSS supports responsive design through media queries, ensuring web pages look great on different devices. Animations and transitions in CSS enhance user experience by adding dynamic effects to elements. With the ability to use variables, CSS also promotes reusability and maintainability of code. Overall, CSS is an essential tool for web developers to create engaging and adaptable user interfaces.</p>
+      </section>  
+
+</main>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation of CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav id="navbar">
+    <header>CSS Documentation</header>
+    <a href="#About_CSS" class="nav-link">About CSS</a>
+    <a href="#CSS_Basics" class="nav-link">CSS Basics</a>
+    <a href="#Box_Model" class="nav-link">Box Model</a>
+    <a href="#Positioning" class="nav-link">Positioning</a>
+    <a href="#Element_Selector" class="nav-link">Element Selector</a>
+    <a href="#Conclusion" class="nav-link">Conclusion</a>
+</nav>
+<main id="main-doc">
+    <section class="main-section" id="About_CSS">
+        <header>About CSS</header>
+        <p>Cascading Style Sheets (CSS) is a cornerstone technology used for web development to control the presentation of HTML documents.</p>
+        <article>
+            <p>By separating content from design, CSS allows developers to apply styles such as layout, colors, fonts, and spacing to various HTML elements. This enables the creation of visually appealing and responsive web pages. CSS follows a rule-based syntax where selectors are used to target HTML elements, and declarations define how those elements should be styled. Through advanced features like Flexbox and Grid, CSS offers robust solutions for complex layouts.</p>
+        </article>
+        <p>Here is an example of inline code: <code>color: blue;</code></p>
+    </section>
+    <section class="main-section" id="CSS_Basics">
+        <header>CSS Basics</header>
+        <p>Syntax: CSS rules are made up of selectors and declaration blocks.</p>
+        <div class="example">
+            <pre><code>selector {
+  property: value;
+}
+Example:
+p {
+  color: blue;
+  font-size: 14px;
+}</code></pre>
+        </div>
+        <p>Selectors are used to target the HTML elements to which the styles should be applied.</p>
+    </section>
+    <section class="main-section" id="Box_Model">
+        <header>Box Model</header>
+        <p>Every element in CSS is a rectangular box.</p>
+        <ul>
+            <li>Content: The actual content of the box.</li>
+            <li>Padding: Clears an area around the content.</li>
+            <li>Border: A border surrounding the padding (if any) and content.</li>
+              <li>Border: A border surrounding the padding (if any) and content.</li>
+                <li>Border: A border surrounding the padding (if any) and content.</li>
+        </ul>
+        <p>Here is a code example: <code>box-sizing: border-box;</code></p>
+    </section>
+    <section class="main-section" id="Positioning">
+        <header>Positioning</header>
+        <p>Static: The default positioning for HTML elements.</p>
+        <p>Relative: Positioned relative to its normal position.</p>
+        <p>Absolute: Positioned relative to the nearest positioned ancestor.</p>
+        <p>Fixed: Positioned relative to the viewport.</p>
+        <p>Here is another code example: <code>position: absolute;</code></p>
+    </section>
+    <section class="main-section" id="Element_Selector">
+        <header>Element Selector</header>
+        <p>Element selectors are exactly the type of selector we looked at in that last example: Select the element’s HTML tag and start styling!</p>
+        <p>That’s great and all, but consider this: Do you actually want to select all of the article elements on the page?</p>
+        <p>That’s what we’re doing when we select an element by its tag — any and all HTML elements matching that tag get the styles.</p>
+        <p>The following demo selects all article elements on the page, then applies a white (#fff) background to them.</p>
+        <p>Notice how all three articles get the white background even though we only wrote one selector.</p>
+        <p>Here's a code example: <code>article { background-color: #fff; }</code></p>
+    </section>
+    <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>Additionally, CSS supports responsive design through media queries, ensuring web pages look great on different devices.</p>
+        <p>Animations and transitions in CSS enhance user experience by adding dynamic effects to elements.</p>
+        <p>With the ability to use variables, CSS also promotes reusability and maintainability of code.</p>
+        <p>Overall, CSS is an essential tool for web developers to create engaging and adaptable user interfaces.</p>
+        <p>Here is a final code example: <code>@media (max-width: 600px) { .container { flex-direction: column; } }</code></p>
+    </section>
+</main>
+</body>
+</html>
+
