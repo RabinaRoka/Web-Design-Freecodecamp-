@@ -44,13 +44,18 @@
     }
 
 
-    .cabin{
-        background-color:red;
-        width:20%;
-        height:20%;
-        position:absolute;
-        border:2px solid;
-        transform-origin:50% 0%;
+    .cabin {
+        background-color: red;
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        border: 2px solid;
+        transform-origin: 50% 0%;
+        /* animation-name: wheel;
+          animation-duration: 10s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear; */
+          animation:cabins 10s linear infinite;
       }
 
 
@@ -98,8 +103,9 @@
  @keyframes cabins {
     0% {
       transform: rotate(0deg);
+      background-color:yellow;
     }
     100% {
       transform: rotate(-360deg);
     }
- }
+  }
