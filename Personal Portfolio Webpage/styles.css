@@ -1,3 +1,35 @@
+:root{
+  --blue: #007bff;
+ --indigo: #6610f2;
+ --purple: #6f42c1;
+ --pink: #e83e8c;
+ --red: #dc3545;
+ --orange: #fd7e14;
+ --yellow: #ffc107;
+ --green: #28a745;
+ --teal: #20c997;
+ --cyan: #17a2b8;
+ --white: #fff;
+ --gray: #6c757d;
+ --gray-dark: #343a40;
+ --primary: #007bff;
+ --secondary: #6c757d;
+ --success: #28a745;
+ --info: #17a2b8;
+ --warning: #ffc107;
+ --danger: #dc3545;
+ --light: #f8f9fa;
+ --dark: #343a40;
+ --breakpoint-xs: 0;
+ --breakpoint-sm: 576px;
+ --breakpoint-md: 768px;
+ --breakpoint-lg: 992px;
+ --breakpoint-xl: 1200px;
+ --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+
+}
+
 *{
     margin:0;
     padding:0;
@@ -8,6 +40,17 @@
     font-family:Georgia ,serif;
     
   }
+
+  .h3{
+    color:gray;
+  }
+
+  header{
+    padding:10px 0;
+    color:var(--white);
+    background-color:#343a40; ;
+  }
+
   .social-icons {
     display: grid;
     font-size: 2rem;
@@ -21,15 +64,433 @@
   
   #navbar{
     position:sticky;
-    padding:10px;
-    border:1px solid black;
     top:0;
-  
   }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.title ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.title ul li a {
+  color: black;
+  text-decoration: none;
+}
   
   main{
     margin:100px;
   }
+
+  table {
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    table-layout: fixed; /* Ensures table columns do not expand beyond their width */
+    border-spacing: 0; /* Remove spacing between cells */
+    margin-top: 3rem;
+}
+
+table caption {
+    color: #356eaf;
+    font-size: 1.3em;
+    font-weight: normal;
+    /* position: absolute; */
+    top: -2.25rem;
+    left: 0.5rem;
+}
+
+tbody th {
+    width: 50%; /* Adjust to fit your design */
+    padding: 0.3rem 0.5rem;
+}
+
+tbody td {
+    width: 50%; /* Ensure it fits the remaining space */
+    padding: 0.3rem 0.25rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+td.current {
+    font-style: italic;
+    white-space: nowrap;
+}
+
+tr.data {
+    background-image: linear-gradient(to bottom, #dfdfe2 3rem, white 1.845rem);
+}
+
+tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+
+tr.data th .description {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    padding: 2rem 0 0.75rem;
+}
+
+tr.data td {
+    vertical-align: top;
+    padding: 0.3rem 0.25rem 0;
+    text-align: left;
+    white-space: nowrap;
+}
+
+tr.data td:last-of-type {
+    padding-right: 0.5rem;
+}
+
+
+span[class~="date"] {
+  color: gray;
+  font-size: 1rem;
+  
+}
+
+.education-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-title {
+  color: #b71c1c;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.education-subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.education-item {
+  margin-bottom: 30px;
+}
+
+.education-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.education-item p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.education-item .duration {
+  color: #777;
+}
+
+.education-item .description {
+  color: #777;
+  margin-top: 10px;
+}
+
+.education-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.sec-container {
+ 
+  background-size: contain;
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+  /* Center the content vertically */
+  padding: 70px;
+  border-radius: 1px;
+ 
+  /* Add border */
+
+  /* Add box shadow */
+
+}
+
+
+.contactuscontent {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+
+
+}
+
+.contactusform {
+  width: 100%;
+  width: 400px;
+
+
+}
+
+/* Additional styles for form elements */
+.contactusform h2 {
+  margin-bottom: 20px;
+}
+
+.contactusform label {
+  display: block;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.contactusform input,
+.contactusform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactusform textarea {
+  resize: vertical;
+  /* Allow vertical resizing of textarea */
+}
+
+.contactusform button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contactusform button:hover {
+  background-color: #0056b3;
+}
+
+.about {
+  display: flex;
+  margin: 50px;
+}
+
+
+.logo_img {
+  height: auto;
+  width: 120px;
+  display: block;
+
+}
+
+.card-body{
+  text-align: left;
+  
+ 
+  font-weight: bold;
+}
+.card{
+transition: .3s;
+}
+.card:hover{
+  transition: .3s;
+  transform: scale(1.1);
+}
+
+
+.image-container {
+  /*background-image: url("https://img.freepik.com/free-photo/bride-groom-celebrate-love-nature-generated-by-ai_188544-45296.jpg?t=st=1713945036~exp=1713948636~hmac=0c6671f1acdbb4b1a23f30c5c6e719e5f017fcd7d6e57104eebc787cff6cde37&w=1060");*/
+  background-image: url("static/images/index2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1px solid black;
+  box-shadow: 2px solid black;
+}
+
+.card {
+  border-radius: 1px;
+  border: 1px solid white;
+  /* Add border */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.049);
+  transition: .3s;
+  /* Add box shadow */
+}
+
+.card:hover{
+  transition: .3s;
+  transform:scale(1.1);
+}
+
+
+.image-container img {
+  max-width: 100%;
+  height: 190px;
+  margin-top: 0;
+  border-radius: 1px solid black;
+  box-shadow: 1px solid black;
+}
+
+
+
+.btn-container h2 {
+  margin-top: -40vh;
+  color: white;
+}
+
+.image-container p {
+  color: white;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+
+
+
+  /* span[class~="sr-only"] {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    width: 1px !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    padding: 0 !important;
+    margin: -1px !important;
+  }
+
+  span[class~="heading"] {
+    max-width: 2rem;
+  }
+
+  .table-wrap {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+    border-spacing: 100px;
+  }
+  
+  table caption {
+    color: #356eaf;
+    font-size: 1.3em;
+    font-weight: normal;
+    position: absolute;
+    top: -2.25rem;
+    left: 0.5rem;
+  }
+  
+  tbody td {
+    
+    min-width: 4rem;
+    max-width: 4rem;
+  }
+  
+  tbody th {
+    width: calc(100% - 12rem);
+  }
+
+
+  
+  td.current {
+    font-style: italic;
+    white-space: nowrap;
+  
+  }
+  
+  tr.data {
+    background-image: linear-gradient(to bottom, #dfdfe2 3rem, white 1.845rem);
+  }
+  
+  tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+  }
+  
+  tr.data th .description {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    padding: 2rem 0 0.75rem;
+    margin-right: -13.5rem;
+  }
+  
+  tr.data td {
+    vertical-align: top;
+    padding: 0.3rem 0.25rem 0;
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  tr.data td:last-of-type{
+    padding-right:0.5rem;
+  } */
+
+  /* background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+   */
+
+
   
   @media only screen and (max-width: 720px) {
     .main {
