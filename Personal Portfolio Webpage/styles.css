@@ -175,6 +175,75 @@ span[class~="date"] {
   
 }
 
+
+/*Work ------------------------*/
+
+.work-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.work-content {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.work-title {
+  color: #b71c1c;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.work-subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.work-item {
+  margin-bottom: 30px;
+  
+}
+
+.work-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.work-item p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.work-item .duration {
+  color: #777;
+}
+
+.work-item .description {
+  color: #777;
+  margin-top: 10px;
+}
+
+.work-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-image img {
+  max-width: 500%;
+  /* border-radius: 10px; */
+  min-height: 400px;
+  margin-top: 5px;
+}
+
+
+/*Education ------------------------*/
+
+
 .education-section {
   max-width: 1000px;
   margin: 0 auto;
@@ -185,6 +254,8 @@ span[class~="date"] {
 
 .education-content {
   flex: 1;
+  padding-right: 100px;
+  
 }
 
 .education-title {
@@ -200,6 +271,7 @@ span[class~="date"] {
 
 .education-item {
   margin-bottom: 30px;
+  
 }
 
 .education-item h3 {
@@ -226,11 +298,15 @@ span[class~="date"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .education-image img {
   max-width: 100%;
   border-radius: 10px;
+  margin-top: 20px;
+  min-height: 350px;
+  animation: moveRightToLeft 5s ease-in-out;
 }
 
 .sec-container {
